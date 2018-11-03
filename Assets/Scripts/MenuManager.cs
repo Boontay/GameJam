@@ -4,16 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour {
-	public void toGame() {
-		SceneManager.LoadScene("Stage_1");
-	}
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public void ToGame() {
+        SceneManager.LoadScene("Stage_1");
+    }
+    // Use this for initialization
+    void Start() {
+
+    }
+
+    // Update is called once per frame
+    void Update() {
+
+    }
 }
